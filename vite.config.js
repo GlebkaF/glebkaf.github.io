@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     preact(),
     legacy({
-      targets: ["defaults", "not IE 11"],
+      targets: ["defaults", "not IE 11", "Chrome 47"],
     }),
   ],
   build: {
