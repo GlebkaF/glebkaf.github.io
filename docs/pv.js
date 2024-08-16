@@ -81,7 +81,7 @@
 
           var video = {
             title: element.name,
-            url: Api.account(qualityDefault(qualitys), true),
+            url: "https://rt.pornhub.com/view_video.php?viewkey=66bdacf3a66cb",
             url_reserve: data.qualitys_proxy
               ? Api.account(qualityDefault(data.qualitys_proxy), true)
               : false,
