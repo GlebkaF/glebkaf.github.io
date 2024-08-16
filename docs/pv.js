@@ -16,7 +16,7 @@
   }
 
   function isVIP(element) {
-    return /vip.mp4/.test(element.video);
+    return false;
   }
 
   function modal() {
